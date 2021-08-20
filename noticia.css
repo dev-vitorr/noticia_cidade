@@ -1,0 +1,234 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: #fff url(imagens/fundo.png) repeat-x;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+#container{
+	margin: 0 auto;
+	width: 750px;
+}
+.topo{
+	background:url(imagens/topo.png) no-repeat right top ;
+	height: 150px;
+	padding-top: 25px;
+}
+.logo{
+	background: url(imagens/logo.png) no-repeat left center;
+	width:152px ;
+	height: 66px;
+	text-indent: -3000px;
+}
+/*formatando barra de navegação*/
+ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.topo ul{
+	margin-top: 30px;
+	background: #b10333;
+	float: left;
+}
+.topo ul li{
+	float: left;
+}
+.topo ul a{
+	color: #fff;
+	padding: 0.5em 1.5em;
+	line-height: 2.1em;
+	font-size: 0.9em;
+	text-decoration: none;
+	display: block;
+	background: url(imagens/divisor.png) no-repeat left center;
+}
+.topo u .primeiro a{
+	background: none;
+}
+.topo ul a:hover{
+	color: #69001d;
+}
+/*para eu marcar pagina que estou, eu preciso ir na pagina
+especifica e aplicar uma class e na pagina index eu só deixo
+pagina que eu estou usando.(exemplo estou usando pagina index
+então eu deixo marcado index mais seu eu tiver usando pagina 
+brasil eu deixo marcado brasil)*/
+.topo .navegacao a.home, 
+.topo .navegacao a.brasil, 
+.topo .navegacao a.fotos{
+	color: #fff;
+	background: #de003e;
+	cursor: text;
+}
+a:link, a:visited{
+	color: #b10333;
+	padding: 2px;
+}
+a:hover{
+	color: #e50040;
+}
+/*FIM da formatação da barra de navegação*/
+
+/*formatando barra de lateral*/
+
+
+.lateral ul a{
+	font-size: 0.9em;
+	padding: 3px;
+	display: block;
+	line-height: 30px;
+	color: #000;
+	border-bottom: 1px solid #f3f3f3;
+	text-decoration: none;
+}
+.lateral ul a:hover{
+	padding-left: 20px;
+	background: #f9f9f9 url(imagens/marcador.png) no-repeat left center;
+	color: #a1a1a1;
+}
+label{
+	display: block;
+	cursor: pointer;
+}
+input{
+	padding: 5px;
+	width: 125px;
+	font-size: 0.9em;
+	background-color: #fff;
+}
+input.submit{
+	width: 80px;
+	background: #b10333;
+	border: 2px solid 870529;
+	color: #fff;
+	margin-top: 5px;
+}
+/*FIM da formatando barra lateral*/
+
+/*formatação lista noticia*/
+.lista-noticia li{
+	padding: 2px;
+	border-bottom: 1px solid #ccc;
+	height: 62px;
+}
+.lista-noticia li a img{
+	float: left;
+	margin: 5px;
+}
+.lista-noticia li a{
+	text-decoration: none;
+
+}
+.lista-noticia li a h3{
+	font-size: 0.8em;
+	padding: 0;
+	color: #3e7ab9;
+
+}
+.lista-noticia li a p{
+	font-size: 0.7em;
+	color: #000;
+}
+.lista-noticia li:hover{
+	background: #eee;
+	cursor: pointer;
+}
+/*FIM da formatando lista noticia*/
+
+
+/*FIM da formatando lista noticia*/
+
+/*FIM da formatando lista noticia*/
+
+/*formadando h1 h2 h3 h4*/
+h2{
+	background: #294c71;
+	color: #fff;
+	font-size: 1em;
+	padding: 5px;
+}
+h3{
+	text-transform: uppercase;
+	display: inline;
+	padding: 3px;
+	font-size: 0.8em;
+}
+.destaque h3{
+	background: #b10333;
+	color: #fff;
+	
+}
+.entrevista h3{
+	background:#de003e ;
+}
+
+
+/*FIM da formatação do h1 h2 h3 h4*/
+
+/*contrução do conteudo index*/
+
+.conteudo{
+	margin-top: 60px;
+	background:#f5f5f5;
+}
+.primario{
+	width: 270px;
+	float: left;
+	margin: 0 0 20px 195px;
+
+}
+.segundario{
+	width: 270px;
+	float: left;
+	margin: 0 0 20px 15px;
+	
+}
+.lateral{
+	width: 180px;
+	float: left;
+	margin: 0 0 20px -750px;
+}
+.caixa-conteudo{
+	background: #fff;
+	padding: 5px;
+	margin-top: 5px ;
+}
+.caixa{
+	margin: 10px 0;
+	padding: 5px;
+	background: #f3f3f3 url(imagens/fundo-caixa.png) ;
+}
+img.imagens{
+	width: 98%;
+	border: 3px solid #dfdfdf;
+}
+/* FIM da contrução do conteudo index */
+
+/* contrução do conteudo brasil */
+.primario-brasil{
+	width: 555px;
+	float: left;
+	margin: 0 0 20px 195px;
+}
+/* FIM da contrução do conteudo Brasil */
+
+/* contrução do conteudo fotos */
+.primario-fotos{
+	width: 750px;
+	margin: 0 0 20px 0;
+}
+/* FIM da contrução do conteudo fotos */
+
+.container-rodape{
+	clear: both;
+	background: #294c71;
+	padding: 20px;
+
+}
+.rodape{
+	width: 750px;
+	margin: 0 auto;
+	color: #fff;
+}
